@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
-                  margin: EdgeInsets.only(top: 70, left: 20, right: 20),
+                  margin: EdgeInsets.only(top: 50, left: 20, right: 20),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                   ),
                 ),
                 SizedBox(
-                  height: 40,
+                  height: 20,
                 ),
                 Container(
                   margin: EdgeInsets.only(left: 20),
@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                   ),
                 ),
                 SizedBox(
-                  height: 30,
+                  height: 25,
                 ),
                 Container(
                   child: Align(
@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                 ),
                 Container(
                   padding: EdgeInsets.only(left: 20),
-                  height: 300,
+                  height: 260,
                   width: double.maxFinite,
                   child: TabBarView(
                     controller: _tabController,
@@ -137,7 +137,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                   ),
                 ),
                 SizedBox(
-                  height: 20,
+                  height: 15,
                 ),
                 Container(
                   margin: EdgeInsets.only(left: 20),
